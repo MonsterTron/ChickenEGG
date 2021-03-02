@@ -667,7 +667,7 @@ var _balance = 0;
 
 async function initContract() {
   if (!this.contract) {
-    this.contract = await new web3.eth.Contract(abi, "0x0EE71CED90D2670bC1e0A0FebC7DfC3b7da900A0");
+    this.contract = await new web3.eth.Contract(abi, "0x925A98a9E39C27aE56BaA2f9Da78bDe4e40CEf27");
   }
 
   return this.contract;
